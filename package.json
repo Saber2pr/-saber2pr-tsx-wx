@@ -1,0 +1,32 @@
+{
+  "name": "@saber2pr/tsx-wx",
+  "version": "0.0.1",
+  "description": "> compile tsx into wxml.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saber2pr/-saber2pr-tsx-wx.git"
+  },
+  "author": "saber2pr",
+  "license": "ISC",
+  "files": [
+    "lib/core/*",
+    "lib/index.*",
+    "lib/tools/*",
+    "lib/wx/*"
+  ],
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "node ./lib/test/test.js",
+    "start": "tsc --watch"
+  },
+  "keywords": [
+    "tsx",
+    "wxml"
+  ],
+  "devDependencies": {
+    "typescript": "^3.4.3"
+  },
+  "dependencies": {
+    "@types/node": "^12.0.8"
+  }
+}
