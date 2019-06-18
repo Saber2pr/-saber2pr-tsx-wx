@@ -4,7 +4,7 @@
   "description": "> compile tsx into wxml.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Saber2pr/-saber2pr-tsx-wx.git"
+    "url": "git+https://github.com/Saber2pr/tsx-wx.git"
   },
   "author": "saber2pr",
   "license": "ISC",
